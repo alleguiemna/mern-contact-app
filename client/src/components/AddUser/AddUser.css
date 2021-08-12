@@ -1,0 +1,9 @@
+.add {
+    background: linear-gradient(120deg, #2980b9, #ae97b8);
+    text-align: center;
+}
+.add-btn{
+    background-color: #ae97b8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

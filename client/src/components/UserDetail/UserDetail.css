@@ -1,0 +1,25 @@
+.detail{
+    background: linear-gradient(120deg, #2980b9, #ae97b8);
+    height:90vh;
+} 
+
+.name{
+    text-align:center;
+}
+.mail,
+.phone,
+.calendar{
+    color:#ae97b8 ;
+    margin-right:8px;
+}
+.email,
+.age,
+.phone-num{
+    color:#ae97b8 ;
+    text-decoration:underline;
+}
+.btn{
+    background-color:#2980b9;
+    color:black;
+    justify-content:center;
+}

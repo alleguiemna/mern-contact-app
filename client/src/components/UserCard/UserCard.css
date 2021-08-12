@@ -1,0 +1,30 @@
+.card{
+    margin-bottom: 20px;
+}
+.card h1{
+    height:15%;
+    width:15%;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ae97b8;
+}
+.name{
+    text-align:center;
+}
+.mail,
+.phone,
+.calendar{
+    color:#ae97b8 ;
+    margin-right:8px;
+}
+.email,
+.age,
+.phone-num{
+    color:#ae97b8 ;
+    text-decoration:underline;
+}
+.btn,
+.btn1{
+    background-color:#2980b9;
+    color:black;
+}
