@@ -57,5 +57,10 @@ app.delete('/users/delete/:id', async (req,res) =>{
         error(error)
     }
 })
+//Production of server to access react js build folder
+app.use(express.static('client/build'));
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./client/build", "index.html"));
+});
 
 app.listen(PORT, (err) => err ? console.log(err) : console.log(`server is running on ${PORT}`));
